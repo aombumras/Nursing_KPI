@@ -3,6 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="only light">
+<meta name="theme-color" content="#e4f5ef">
 <title>รายงานตัวชี้วัด กลุ่มการพยาบาล</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,8 +16,8 @@
    COLOUR mint ground, translucent teal sidebar, white glass panels, green pass and red miss
    TYPE Prompt for headings + IBM Plex Sans Thai for text
    LAYOUT sidebar left; units as a button grid by IPD/OPD; phone: drawer menu, stacked cards, scrolling month table */
-:root{color-scheme:light;--bg:#e4f5ef;--bg2:#f3fbf8;--blob1:rgba(52,196,160,.30);--blob2:rgba(96,200,226,.26);--blob3:rgba(255,224,150,.24);--ink:#10302a;--ink2:#40655c;--ink3:#64857d;--line:rgba(12,110,92,.15);--glass:rgba(255,255,255,.58);--gb:rgba(255,255,255,.75);--solid:#fff;--soft:#eaf8f3;--accent:#0b8670;--accent2:#d4f2e8;--on:#fff;--side:linear-gradient(170deg,rgba(9,122,102,.90),rgba(22,163,136,.84));--bar:#9fe0cf;--barS:#70c6b0;--barT:#cdf3e8;--sel:#0b8670;--selS:#07634f;--selT:#3db59b;--floor:rgba(12,110,92,.08);--band:rgba(10,172,35,.12);--ok:#0b7a20;--okbg:#ddf4e2;--bad:#b8292a;--badbg:#fde3e3;--p1:rgba(207,243,231,.78);--p2:rgba(214,239,250,.78);--p3:rgba(255,242,206,.8);--p4:rgba(253,229,222,.8);--p5:rgba(226,232,255,.8);--p6:rgba(236,247,210,.82);--sh:0 10px 30px rgba(10,90,75,.10);--r:22px}
-@media (prefers-color-scheme:dark){:root:not([data-theme=light]){color-scheme:dark;--bg:#0a1c19;--bg2:#0e2725;--blob1:rgba(40,170,140,.18);--blob2:rgba(40,140,170,.16);--blob3:rgba(160,140,60,.10);--ink:#e3f6f1;--ink2:#a7cec5;--ink3:#81a99f;--line:rgba(255,255,255,.12);--glass:rgba(17,50,45,.62);--gb:rgba(255,255,255,.10);--solid:#12302b;--soft:#163a33;--accent:#4fd1b5;--accent2:#174539;--on:#052420;--side:linear-gradient(170deg,rgba(6,72,61,.92),rgba(12,98,83,.88));--bar:#2c7a6a;--barS:#215f53;--barT:#3c9784;--sel:#4fd1b5;--selS:#2a9e86;--selT:#8ae6d2;--floor:rgba(255,255,255,.05);--band:rgba(83,197,86,.16);--ok:#62d266;--okbg:#163a22;--bad:#ff9292;--badbg:#45202a;--p1:rgba(22,72,60,.7);--p2:rgba(20,62,76,.7);--p3:rgba(70,62,30,.62);--p4:rgba(74,40,40,.62);--p5:rgba(40,46,84,.62);--p6:rgba(52,66,28,.62);--sh:0 10px 30px rgba(0,0,0,.35)}}
+:root{color-scheme:only light;--bg:#e4f5ef;--bg2:#f3fbf8;--blob1:rgba(52,196,160,.30);--blob2:rgba(96,200,226,.26);--blob3:rgba(255,224,150,.24);--ink:#10302a;--ink2:#40655c;--ink3:#64857d;--line:rgba(12,110,92,.15);--glass:rgba(255,255,255,.58);--gb:rgba(255,255,255,.75);--solid:#fff;--soft:#eaf8f3;--accent:#0b8670;--accent2:#d4f2e8;--on:#fff;--side:linear-gradient(170deg,rgba(9,122,102,.90),rgba(22,163,136,.84));--bar:#9fe0cf;--barS:#70c6b0;--barT:#cdf3e8;--sel:#0b8670;--selS:#07634f;--selT:#3db59b;--floor:rgba(12,110,92,.08);--band:rgba(10,172,35,.12);--ok:#0b7a20;--okbg:#ddf4e2;--bad:#b8292a;--badbg:#fde3e3;--p1:rgba(207,243,231,.78);--p2:rgba(214,239,250,.78);--p3:rgba(255,242,206,.8);--p4:rgba(253,229,222,.8);--p5:rgba(226,232,255,.8);--p6:rgba(236,247,210,.82);--sh:0 10px 30px rgba(10,90,75,.10);--r:22px}
+
 :root[data-theme=dark]{color-scheme:dark;--bg:#0a1c19;--bg2:#0e2725;--blob1:rgba(40,170,140,.18);--blob2:rgba(40,140,170,.16);--blob3:rgba(160,140,60,.10);--ink:#e3f6f1;--ink2:#a7cec5;--ink3:#81a99f;--line:rgba(255,255,255,.12);--glass:rgba(17,50,45,.62);--gb:rgba(255,255,255,.10);--solid:#12302b;--soft:#163a33;--accent:#4fd1b5;--accent2:#174539;--on:#052420;--side:linear-gradient(170deg,rgba(6,72,61,.92),rgba(12,98,83,.88));--bar:#2c7a6a;--barS:#215f53;--barT:#3c9784;--sel:#4fd1b5;--selS:#2a9e86;--selT:#8ae6d2;--floor:rgba(255,255,255,.05);--band:rgba(83,197,86,.16);--ok:#62d266;--okbg:#163a22;--bad:#ff9292;--badbg:#45202a;--p1:rgba(22,72,60,.7);--p2:rgba(20,62,76,.7);--p3:rgba(70,62,30,.62);--p4:rgba(74,40,40,.62);--p5:rgba(40,46,84,.62);--p6:rgba(52,66,28,.62);--sh:0 10px 30px rgba(0,0,0,.35)}
 *{box-sizing:border-box;min-width:0}
 html{height:100%}
@@ -273,7 +275,7 @@ details>summary{cursor:pointer;font-weight:500;color:var(--accent);min-height:36
 @media (prefers-reduced-motion:reduce){.sc,.kc,.ub,.toast,.side,.rf{transition:none}.sc:hover,.kc:hover,.ub:hover{transform:none}.b3.an,.v3.an{animation:none}}
 
 :root{--card:rgba(255,255,255,.9);--c0:#0f8a74;--c1:#1f78b4;--c2:#6b55c9;--c3:#c43c78;--c4:#a8650a;--c5:#2e7d32;--nF:var(--bar);--nS:var(--barS);--nT:var(--barT);--zF:var(--sel);--zS:var(--selS);--zT:var(--selT)}
-@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--card:rgba(18,50,45,.86);--c0:#4fd1b5;--c1:#6cb8f0;--c2:#b3a5ff;--c3:#f28bb8;--c4:#f2c063;--c5:#7ed07f}}
+
 :root[data-theme=dark]{--card:rgba(18,50,45,.86);--c0:#4fd1b5;--c1:#6cb8f0;--c2:#b3a5ff;--c3:#f28bb8;--c4:#f2c063;--c5:#7ed07f}
 .sgrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-bottom:22px}
 .sgrid.three{grid-template-columns:repeat(3,minmax(0,1fr))}
@@ -368,9 +370,70 @@ button.scard{cursor:pointer;font:inherit}
 .kbtn{display:block;width:100%;padding:0;border:0;background:none;font:inherit;color:inherit;text-align:start;cursor:pointer;border-radius:6px}
 .kbtn:hover{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
 .kbtn:focus-visible{outline:3px solid color-mix(in srgb,var(--accent) 55%,transparent);outline-offset:2px}
-.mt .lab .fx{display:block;font-size:11px;font-weight:400;color:var(--ink2)}
+.mt .lab .fx{display:block;font-size:12px;font-weight:400;color:var(--ink2)}
 .mt .lab[title]{text-decoration:underline dotted;text-underline-offset:3px;cursor:help}
 .fig .v3{paint-order:stroke fill;stroke:var(--solid);stroke-width:4px;stroke-linejoin:round}
+
+/* ---------- phones ---------- */
+.mchips{position:relative}
+.ecl{display:grid;gap:12px}
+.ec{padding:14px 14px 12px;border-radius:18px;background:var(--solid);border:1px solid var(--line);box-shadow:0 8px 20px -14px rgba(0,60,50,.4)}
+.ec .kbtn{font-size:16px;font-weight:600;line-height:1.45}
+.ecc{margin-top:12px;padding:10px 12px 8px;border-radius:14px;background:var(--soft);border:1px solid var(--line)}
+.ecc[hidden]{display:none}
+.ecm{font-size:13px;font-weight:600;color:var(--accent);margin-bottom:2px}
+.ef{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:5px 0}
+.ef>span{font-size:14px;color:var(--ink2);line-height:1.35;min-width:0}
+.ef small{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-size:12px;color:var(--ink3);margin-top:1px}
+.ef input{flex:0 0 auto;width:min(150px,46%);min-height:46px;padding:6px 12px;border-radius:12px;border:1px solid var(--line);background:var(--solid);color:var(--ink);font:inherit;font-size:17px;text-align:end;font-variant-numeric:tabular-nums}
+.ef input:focus{outline:2px solid var(--accent);outline-offset:0}
+.ef input.dirty{background:var(--accent2)}
+.ef input.bad{border-color:var(--bad);background:var(--badbg)}
+.ef.res{border-top:1px dashed var(--line);margin-top:4px;padding-top:8px}
+.ef.res b{font-size:19px;font-variant-numeric:tabular-nums}
+.ec .ksum{margin-top:10px}
+.mnav.one .mc[aria-pressed=true]{background:var(--accent);color:var(--on)}
+@media (max-width:719px){
+ h1{font-size:24px}
+ .top .sub,#pSub{font-size:13.5px;line-height:1.45}
+ .demo{font-size:13px;margin:6px 0 12px;padding:8px 12px}
+ .card{padding:16px}
+ .sgrid:not(.three){grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+ .scard{padding:14px 14px 12px;gap:6px;border-radius:16px}
+ .scard .lbl{font-size:15px}
+ .sgrid:not(.three) .scard .big{font-size:28px}
+ .sgrid:not(.three) .scard .sub{font-size:12.5px}
+ .sgrid:not(.three) .scard .lbl{flex-direction:column;align-items:flex-start;gap:4px}
+ .sech2{flex-wrap:wrap;row-gap:0;font-size:19px;margin:4px 0 10px}
+ .sech2 small{flex-basis:100%;padding-left:36px;font-size:13px}
+ .tabs{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+ .tabs a{justify-content:center;padding:8px 10px;font-size:14.5px;text-align:center}
+ .uhd{gap:10px}
+ .uhd .who{gap:8px;width:100%}
+ .uhd .who .btn{min-height:40px;padding:6px 12px;font-size:14px}
+ .uhd .fld{min-width:0!important;width:100%}
+ .mnav{top:6px;padding:4px 6px}
+ .savebar{flex-wrap:nowrap;gap:8px;padding:10px 12px;bottom:8px}
+ .savebar #dirtyN{flex:1;min-width:0;font-size:13px;line-height:1.35}
+ .savebar .t{display:none}
+ .savebar .btn{min-height:46px;padding-inline:14px}
+ .toast{bottom:96px;max-width:calc(100vw - 24px)}
+ .mod{padding:0;place-items:end center}
+ .box{width:100%;max-height:92svh;border-radius:22px 22px 0 0}
+ .mh{padding:12px 14px}
+ .mh h2{font-size:17px;line-height:1.4}
+ .mf{padding:10px 14px calc(10px + env(safe-area-inset-bottom))}
+ .mf .btn{flex:1 1 auto;justify-content:center}
+ .sheet,.sheet>tbody,.sheet>tbody>tr,.sheet>tbody>tr>th,.sheet>tbody>tr>td{display:block;width:auto}
+ .sheet>tbody>tr{border:1px solid var(--line);border-radius:12px;margin-bottom:8px;overflow:hidden}
+ .sheet>tbody>tr>th{border:0;padding:8px 12px 2px;font-size:13px;color:var(--ink2)}
+ .sheet>tbody>tr>td{border:0;padding:4px 12px 10px;overflow-x:auto}
+ .rchips{gap:8px}
+ .sw{min-height:40px}
+ .ec .kbtn{padding:4px 0}
+ .rc{min-height:40px;font-size:14px;padding:5px 7px 5px 10px}
+}
+@media (max-width:340px){.sgrid:not(.three){grid-template-columns:minmax(0,1fr)}.tabs{grid-template-columns:minmax(0,1fr)}}
 </style>
 </head>
 <body>
@@ -482,6 +545,7 @@ let S=null,BASE=null,KM={},IDX=new Map(),RK=new Set(),GRP={};
 const saved=store.get(LSU)||{};
 const UI={year:FY-1,eyear:FY,unit:saved.unit||'ไตเทียม',sel:null,ovU:{},ovT:'',ov:{q:'',rep:'',all:false},st:{q:'',rep:''},uq:'',cur:'',skipGuard:false};
 const saveUI=()=>store.set(LSU,{unit:UI.unit});
+const PHONE=matchMedia('(max-width: 719px)');
 function reindex(){KM={};S.kpis.forEach(k=>{KM[k.id]=k});IDX=new Map();RK=new Set();S.recs.forEach(r=>{const key=r.u+'|'+r.k+'|'+r.y;if(!IDX.has(key))IDX.set(key,[]);IDX.get(key).push(r);RK.add(r.u+'|'+r.k)})}
 const saveS=()=>{if(!ONLINE)store.set(LS,{kpis:S.kpis,units:S.units,tpl:S.tpl,ord:S.ord,freq:S.freq,recs:S.recs});reindex()};
 const unitObj=u=>S.units.find(x=>x.n===u);
@@ -542,7 +606,7 @@ let tT;function toast(m){const t=$('#toast');t.textContent=m;t.classList.add('sh
 function showTip(e,txt){const t=$('#tip');t.textContent=txt;t.hidden=false;const w=t.offsetWidth,h=t.offsetHeight;t.style.left=Math.min(innerWidth-w-8,Math.max(8,e.clientX-w/2))+'px';t.style.top=Math.max(8,e.clientY-h-14)+'px'}
 const hideTip=()=>{$('#tip').hidden=true};
 let lastFocus=null,onClose=null;
-function openModal(title,body,foot='',mount,closeCb){lastFocus=document.activeElement;onClose=closeCb||null;$('#modT').textContent=title;$('#modB').innerHTML=body;$('#modF').innerHTML=foot;$('#mod').hidden=false;$('#modB').scrollTop=0;if(mount)mount($('#mod'));const f=$('#modB input,#modB select,#modB textarea')||$('#modX');setTimeout(()=>f.focus(),30)}
+function openModal(title,body,foot='',mount,closeCb){lastFocus=document.activeElement;onClose=closeCb||null;$('#modT').textContent=title;$('#modB').innerHTML=body;$('#modF').innerHTML=foot;$('#mod').hidden=false;$('#modB').scrollTop=0;if(mount)mount($('#mod'));const f=(matchMedia('(pointer:coarse)').matches?null:$('#modB input,#modB select,#modB textarea'))||$('#modX');setTimeout(()=>f.focus(),30)}
 function closeModal(){$('#mod').hidden=true;$('#modB').innerHTML='';const cb=onClose;onClose=null;if(lastFocus&&lastFocus.focus)lastFocus.focus();if(cb)cb()}
 function confirmBox(msg,ok,onOk,danger,onNo){openModal('ยืนยัน',`<p>${esc(msg)}</p>`,`<button class="btn" type="button" data-c="0">ยกเลิก</button><button class="btn ${danger?'danger':'pri'}" type="button" data-c="1">${esc(ok)}</button>`,m=>{$$('[data-c]',m).forEach(b=>b.onclick=()=>{const y=b.dataset.c==='1';closeModal();if(y)onOk();else if(onNo)onNo()})})}
 
@@ -734,19 +798,26 @@ function guard(go,stay){if(UI.cur==='unit-kpi'&&isDirty())confirmBox('มีข�
 function recOf(u,kid,y,m){return(IDX.get(u+'|'+kid+'|'+y)||[]).find(r=>(r.m||0)===m)}
 function entryCols(u){const E=UI.eyear;return freqOf(u)==='year'?[E-4,E-3,E-2,E-1,E].map(y=>({y,m:0,label:`ปีงบ ${y}`,short:String(y),yr:y===E})):[...MONTHS.map(m=>({y:E,m,label:`${MN[m]} ${String(mYear(m,E)).slice(2)}`,short:MN[m]})),{y:E,m:0,label:'ทั้งปี',short:'ทั้งปี',yr:true}]}
 function inp(kid,c,f,val){return`<input inputmode="decimal" data-k="${kid}" data-y="${c.y}" data-m="${c.m}" data-f="${f}" value="${esc(val??'')}" data-o="${esc(val??'')}" aria-label="${f==='a'?'ตัวตั้ง':f==='b'?'ตัวหาร':'ผลลัพธ์'} ${esc(c.label)}">`}
-function vUnitKpi(){if(!unitObj(UI.unit))return noUnit();const u=UI.unit,E=UI.eyear,mode=freqOf(u),cols=entryCols(u),ks=kidsOf(u).map(id=>KM[id]);
+function vUnitKpi(){if(!unitObj(UI.unit))return noUnit();const u=UI.unit,E=UI.eyear,mode=freqOf(u),cols=entryCols(u),ks=kidsOf(u).map(id=>KM[id]),phone=PHONE.matches,cardsArr=[];
+ const valOf=(rec,f,k)=>!rec?'':f!=='v'?rec[f]:num(rec.v)!=null?rec.v:num(rec.a)!=null&&num(rec.b)?Math.round(rec.a/rec.b*(k.mult||1)*100)/100:'';
  const head=`<tr><th class="stk">ตัวชี้วัด (${esc(u)})</th><th class="lab">รายการ</th>${cols.map((c,ci)=>`<th data-ci="${ci}"${c.yr?' class="yrc"':''}>${esc(c.label)}</th>`).join('')}</tr>`;
  const body=ks.map((k,i)=>{const ab=abOn(k,u),rs=ab?['a','b','r']:['v'],tt=tpl(u,k.id)||{},ov=Object.keys(tt).some(f=>!['code','target','owner','note','vonly','abon'].includes(f)&&tt[f]);
-  const nameCell=`<td class="stk" rowspan="${rs.length}"><button type="button" class="kn kbtn" data-view="${k.id}" title="ดูรายละเอียดตัวชี้วัด">${uName(k,u)}${k.scope?'<span class="ovr">ของหน่วยงาน</span>':''}</button><div class="kmeta">เป้าหมาย${tt.target?'หน่วยงาน':''} ${esc(tFor(k,E,u)||'ยังไม่ได้กำหนด')}${eff(k,u,'code')?' · '+esc(eff(k,u,'code')):''}${ov?' · มีรายละเอียดของหน่วยงาน':''}</div><label class="sw"><input type="checkbox" role="switch" data-ab="${k.id}"${ab?' checked':''}><span>กรอกตัวตั้งและตัวหาร</span></label><div class="ksum" data-sum="${k.id}"></div><div class="kact"><button type="button" class="ibtn sm" data-mv="-1" data-k="${k.id}" aria-label="เลื่อนขึ้น"${i===0?' disabled':''}>${icon('up')}</button><button type="button" class="ibtn sm" data-mv="1" data-k="${k.id}" aria-label="เลื่อนลง"${i===ks.length-1?' disabled':''}>${icon('down')}</button><button type="button" class="ibtn sm" data-cfg="${k.id}" aria-label="ดูและแก้ไขรายละเอียดตัวชี้วัด">${icon('file')}</button><button type="button" class="ibtn sm" data-rm="${k.id}" aria-label="นำออกจากหน่วยงาน">${icon('trash')}</button></div></td>`;
+  const nameIn=`<button type="button" class="kn kbtn" data-view="${k.id}" title="ดูรายละเอียดตัวชี้วัด">${uName(k,u)}${k.scope?'<span class="ovr">ของหน่วยงาน</span>':''}</button><div class="kmeta">เป้าหมาย${tt.target?'หน่วยงาน':''} ${esc(tFor(k,E,u)||'ยังไม่ได้กำหนด')}${eff(k,u,'code')?' · '+esc(eff(k,u,'code')):''}${ov?' · มีรายละเอียดของหน่วยงาน':''}</div><label class="sw"><input type="checkbox" role="switch" data-ab="${k.id}"${ab?' checked':''}><span>กรอกตัวตั้งและตัวหาร</span></label>`;
+  const kact=`<div class="kact"><button type="button" class="ibtn sm" data-mv="-1" data-k="${k.id}" aria-label="เลื่อนขึ้น"${i===0?' disabled':''}>${icon('up')}</button><button type="button" class="ibtn sm" data-mv="1" data-k="${k.id}" aria-label="เลื่อนลง"${i===ks.length-1?' disabled':''}>${icon('down')}</button><button type="button" class="ibtn sm" data-cfg="${k.id}" aria-label="ดูและแก้ไขรายละเอียดตัวชี้วัด">${icon('file')}</button><button type="button" class="ibtn sm" data-rm="${k.id}" aria-label="นำออกจากหน่วยงาน">${icon('trash')}</button></div>`;
+  const nameCell=`<td class="stk" rowspan="${rs.length}">${nameIn}<div class="ksum" data-sum="${k.id}"></div>${kact}</td>`;
+  if(phone){const mu=k.mult||1,vlab=`ผลลัพธ์${unitTxt(k)?' ('+esc(unitTxt(k))+')':k.unit==='%'?' (%)':''}`;
+   const fld=(c,f,lab)=>{const d=(f==='a'||f==='b')&&eff(k,u,f)?`<small>${esc(eff(k,u,f))}</small>`:'';return`<label class="ef"><span>${lab}${d}</span>${inp(k.id,c,f,valOf(recOf(u,k.id,c.y,c.m),f,k))}</label>`};
+   cardsArr.push(`<article class="ec">${nameIn}${cols.map((c,ci)=>`<div class="ecc${c.yr?' yr':''}" data-ci="${ci}"><div class="ecm">${esc(c.label)}</div>${ab?fld(c,'a','ตัวตั้ง (a)')+fld(c,'b','ตัวหาร (b)')+`<div class="ef res"><span>ผลลัพธ์<small>a ÷ b${mu>1?' × '+mu.toLocaleString('th-TH'):''}</small></span><b data-out="${k.id}" data-y="${c.y}" data-m="${c.m}"></b></div>`:fld(c,'v',vlab)}</div>`).join('')}<div class="ksum" data-sum="${k.id}"></div>${kact}</article>`);
+   return''}
   return rs.map((f,j)=>{const mu=k.mult||1,lab=f==='a'?'ตัวตั้ง (a)':f==='b'?'ตัวหาร (b)':f==='r'?`ผลลัพธ์<small class="fx">a ÷ b${mu>1?' × '+mu.toLocaleString('th-TH'):''}</small>`:`ผลลัพธ์${unitTxt(k)?' ('+esc(unitTxt(k))+')':k.unit==='%'?' (%)':''}`;
    const cells=cols.map(c=>{const rec=recOf(u,k.id,c.y,c.m),cls=c.yr?' class="yrc"':'';
     if(f==='r')return`<td${cls}><span data-out="${k.id}" data-y="${c.y}" data-m="${c.m}"></span></td>`;
-    const val=!rec?'':f!=='v'?rec[f]:num(rec.v)!=null?rec.v:num(rec.a)!=null&&num(rec.b)?Math.round(rec.a/rec.b*(k.mult||1)*100)/100:'';return`<td${cls}>${inp(k.id,c,f,val)}</td>`}).join('');
+    return`<td${cls}>${inp(k.id,c,f,valOf(rec,f,k))}</td>`}).join('');
    const tip=(f==='a'||f==='b')&&eff(k,u,f)?` title="${esc(eff(k,u,f))}"`:'';return`<tr class="${j===0?'kfirst':''}${f==='r'?' res':''}">${j===0?nameCell:''}<td class="lab"${tip}>${lab}</td>${cells}</tr>`}).join('')}).join('');
- $('#view').innerHTML=unitHead('kpi')+`<section class="card"><div class="ch"><div><h2>ตารางลงข้อมูล${mode==='year'?'รายปีงบประมาณ':'รายเดือน'}</h2><p class="muted small" style="margin:4px 0 0">${mode==='year'?`ปีงบ ${E-4} ถึง ${E} · ผลที่มี * รวมมาจากข้อมูลรายเดือนที่บันทึกไว้`:`ปีงบ ${E} · ต.ค. ${E-1} ถึง ก.ย. ${E} · ช่องทั้งปีเว้นว่างได้ ระบบรวมจากรายเดือนให้`} · ช่องที่เว้นว่างถือว่ายังไม่มีข้อมูล ไม่นับเป็นศูนย์ · เลื่อนตารางซ้ายขวาได้ด้วยปุ่มลูกศร กดชื่อเดือน หรือคลิกค้างที่ตารางแล้วลาก</p></div>
+ $('#view').innerHTML=unitHead('kpi')+`<section class="card"><div class="ch"><div><h2>ตารางลงข้อมูล${mode==='year'?'รายปีงบประมาณ':'รายเดือน'}</h2><p class="muted small" style="margin:4px 0 0">${mode==='year'?`ปีงบ ${E-4} ถึง ${E} · ผลที่มี * รวมมาจากข้อมูลรายเดือนที่บันทึกไว้`:`ปีงบ ${E} · ต.ค. ${E-1} ถึง ก.ย. ${E} · ช่องทั้งปีเว้นว่างได้ ระบบรวมจากรายเดือนให้`} · ช่องที่เว้นว่างถือว่ายังไม่มีข้อมูล ไม่นับเป็นศูนย์ · ${phone?`เลือก${mode==='year'?'ปีงบ':'เดือน'}ที่จะกรอกจากแถบด้านบน`:'เลื่อนตารางซ้ายขวาได้ด้วยปุ่มลูกศร กดชื่อเดือน หรือคลิกค้างที่ตารางแล้วลาก'}</p></div>
   <div class="tools"><div class="seg" role="group" aria-label="ความถี่ในการเก็บข้อมูล"><button type="button" data-fq="month" aria-pressed="${mode==='month'}">เก็บรายเดือน</button><button type="button" data-fq="year" aria-pressed="${mode==='year'}">เก็บรายปี</button></div><label class="fld" style="flex-direction:row;align-items:center;gap:8px"><span>${mode==='year'?'ถึงปีงบ':'ปีงบ'}</span><select class="in" id="eY" style="width:auto">${yearOpts(E)}</select></label></div></div>
   <div class="acts" style="margin-bottom:12px"><button class="btn pri" type="button" id="pickBtn">${icon('plus')}เลือกตัวชี้วัดจากทะเบียนกลาง</button><button class="btn" type="button" id="ownBtn">${icon('pen')}เพิ่มตัวชี้วัดของหน่วยงานเอง</button></div>
- ${ks.length?`<div class="mnav" id="mnav"><button type="button" class="ibtn sm" id="mvL" aria-label="เลื่อนตารางไปทางซ้าย">${icon('back')}</button><span class="mnl">ไปที่</span><div class="mchips" role="group" aria-label="ไปที่คอลัมน์">${cols.map((c,ci)=>`<button type="button" class="mc" data-ci="${ci}">${esc(c.short)}</button>`).join('')}</div><button type="button" class="ibtn sm" id="mvR" aria-label="เลื่อนตารางไปทางขวา">${icon('next')}</button></div><div class="mtw"><table class="mt" id="mt"><thead>${head}</thead><tbody>${body}</tbody></table></div><div class="savebar card"><span id="dirtyN">ยังไม่มีการแก้ไข</span><button class="btn" type="button" id="eReset">${icon('undo')}ยกเลิกการแก้ไข</button><button class="btn pri" type="button" id="eSave">${icon('save')}บันทึก</button></div>`
+ ${ks.length?`<div class="mnav${phone?' one':''}" id="mnav"><button type="button" class="ibtn sm" id="mvL" aria-label="${phone?(mode==='year'?'ปีงบก่อนหน้า':'เดือนก่อนหน้า'):'เลื่อนตารางไปทางซ้าย'}">${icon('back')}</button><span class="mnl">ไปที่</span><div class="mchips" role="group" aria-label="${phone?'เลือกช่วงที่จะกรอก':'ไปที่คอลัมน์'}">${cols.map((c,ci)=>`<button type="button" class="mc" data-ci="${ci}">${esc(c.short)}</button>`).join('')}</div><button type="button" class="ibtn sm" id="mvR" aria-label="${phone?(mode==='year'?'ปีงบถัดไป':'เดือนถัดไป'):'เลื่อนตารางไปทางขวา'}">${icon('next')}</button></div>${phone?`<div class="ecl" id="mt">${cardsArr.join('')}</div>`:`<div class="mtw"><table class="mt" id="mt"><thead>${head}</thead><tbody>${body}</tbody></table></div>`}<div class="savebar card"><span id="dirtyN">ยังไม่มีการแก้ไข</span><button class="btn" type="button" id="eReset" aria-label="ยกเลิกการแก้ไข">${icon('undo')}<span class="t">ยกเลิกการแก้ไข</span></button><button class="btn pri" type="button" id="eSave">${icon('save')}บันทึก</button></div>`
  :`<div class="empty"><p>หน่วยงาน ${esc(u)} ยังไม่มีตัวชี้วัดในตาราง เลือกจากทะเบียนกลาง หรือเพิ่มตัวชี้วัดเฉพาะของหน่วยงานเอง ชื่อจะต่อท้ายด้วย (${esc(u)}) ให้อัตโนมัติ</p></div>`}</section>`;
  bindHead();
  $('#pickBtn').onclick=()=>guard(picker);
@@ -755,7 +826,7 @@ function vUnitKpi(){if(!unitObj(UI.unit))return noUnit();const u=UI.unit,E=UI.ey
  $('#eY').onchange=e=>{const v=+e.target.value;guard(()=>{UI.eyear=v;render()},()=>{e.target.value=UI.eyear})};
  if(!ks.length)return;
  ks.forEach(k=>calcK(k.id));
- mtScroll(`${u}|${mode}|${E}`);
+ if(phone)mtPhone(`${u}|${mode}|${E}`,cols);else mtScroll(`${u}|${mode}|${E}`);
  $$('#mt [data-ab]').forEach(c=>c.onchange=()=>{const id=c.dataset.ab,on=c.checked;guard(async()=>{const t=cloneT(u),e=t[id],def=isAB(KM[id]);delete e.vonly;delete e.abon;if(on&&!def)e.abon=true;if(!on&&def)e.vonly=true;if(await setUnitTpl(u,t,kidsOf(u),'กำลังบันทึกการตั้งค่า'))toast(on?'เปิดช่องตัวตั้งและตัวหารแล้ว':'ปิดช่องตัวตั้งและตัวหารแล้ว กรอกเฉพาะผลลัพธ์ ข้อมูลเดิมยังอยู่ครบ');render()},()=>{c.checked=!on})});
  $$('#mt input[data-f]').forEach(i=>i.oninput=()=>{i.classList.toggle('dirty',i.value!==i.dataset.o);i.classList.remove('bad');calcK(i.dataset.k);dirtyN()});
  $$('#mt [data-mv]').forEach(b=>b.onclick=async()=>{if(isDirty()){toast('บันทึกข้อมูลก่อนจัดลำดับ');return}const o=kidsOf(u).slice(),i=o.indexOf(b.dataset.k),j=i+(+b.dataset.mv);if(j<0||j>=o.length)return;[o[i],o[j]]=[o[j],o[i]];if(await setUnitTpl(u,cloneT(u),o,'กำลังบันทึกลำดับตัวชี้วัด'))render()});
@@ -764,6 +835,13 @@ function vUnitKpi(){if(!unitObj(UI.unit))return noUnit();const u=UI.unit,E=UI.ey
  $$('#mt [data-rm]').forEach(b=>b.onclick=()=>guard(()=>{const id=b.dataset.rm,n=S.recs.filter(r=>r.u===u&&r.k===id).length;confirmBox(`นำ “${KM[id].name} (${u})” ออกจากตารางของหน่วยงาน${n?` ข้อมูลเดิม ${n} รายการยังเก็บไว้ และยังนับในภาพรวม`:''}`,'นำออก',async()=>{const t=cloneT(u);delete t[id];if(await setUnitTpl(u,t,kidsOf(u).filter(x=>x!==id),'กำลังนำตัวชี้วัดออก')){toast('นำออกแล้ว');render()}},true)}));
  $('#eReset').onclick=()=>{$$('#mt input.dirty,#mt input.bad').forEach(i=>{i.value=i.dataset.o;i.classList.remove('dirty','bad')});ks.forEach(k=>calcK(k.id));dirtyN()};
  $('#eSave').onclick=saveTable}
+function mtPhone(key,cols){const chips=$$('#mnav .mc'),L=$('#mvL'),R=$('#mvR'),box=$('#mnav .mchips');if(!chips.length)return;
+ const set=(i,smooth)=>{i=Math.max(0,Math.min(cols.length-1,i));UI.mcol={key,i};$$('#mt .ecc').forEach(e=>{e.hidden=+e.dataset.ci!==i});
+  chips.forEach((c,j)=>{c.classList.toggle('vis',j===i);c.setAttribute('aria-pressed',String(j===i))});L.disabled=i===0;R.disabled=i===cols.length-1;
+  const ch=chips[i];box.scrollTo({left:ch.offsetLeft-(box.clientWidth-ch.offsetWidth)/2,behavior:smooth?'smooth':'auto'})};
+ chips.forEach((c,j)=>c.onclick=()=>set(j,true));L.onclick=()=>set(UI.mcol.i-1,true);R.onclick=()=>set(UI.mcol.i+1,true);UI.mset=j=>set(j,true);
+ let i=0;if(UI.mcol&&UI.mcol.key===key)i=UI.mcol.i;else if(freqOf(UI.unit)==='year')i=cols.length-1;else if(UI.eyear===FY){const cm=new Date().getMonth()+1;i=cm===10?0:MONTHS.indexOf(cm===1?12:cm-1)}
+ set(i,false)}
 function mtScroll(key){const W=$('.mtw'),nav=$('#mnav');if(!W||!nav)return;
  const ths=$$('#mt thead th[data-ci]'),chips=$$('#mnav .mc'),L=$('#mvL'),R=$('#mvR');
  const pin=()=>{const l=$('#mt thead .lab'),s=$('#mt thead .stk');const el=getComputedStyle(l).position==='sticky'?l:s;return el.getBoundingClientRect().right-W.getBoundingClientRect().left};
@@ -813,7 +891,7 @@ async function saveTable(){const u=UI.unit;const pairs=new Map();
  pairs.forEach(([kid,y,m])=>{const k=KM[kid],c=cellVals(kid,y,m),ab=abOn(k,u),mark=f=>{const i=$(`#mt input[data-k="${kid}"][data-y="${y}"][data-m="${m}"][data-f="${f}"]`);if(i)i.classList.add('bad');bad++};
   if(ab){if(c.a==null&&c.b==null){ops.push({kid,y,m,del:true});return}if(!okn(c.a)||c.a<0)return mark('a');if(!okn(c.b)||c.b<=0)return mark('b');ops.push({kid,y,m,r:{a:c.a,b:c.b,v:Math.round(c.a/c.b*(k.mult||1)*10000)/10000}})}
   else{if(c.v==null){ops.push({kid,y,m,del:true});return}if(Number.isNaN(c.v))return mark('v');ops.push({kid,y,m,r:{v:c.v}})}});
- if(bad){toast(`มี ${bad} ช่องที่ต้องแก้ ตัวตั้งและตัวหารต้องกรอกคู่กัน และตัวหารต้องมากกว่า 0`);const f=$('#mt input.bad');if(f)f.focus();return}
+ if(bad){toast(`มี ${bad} ช่องที่ต้องแก้ ตัวตั้งและตัวหารต้องกรอกคู่กัน และตัวหารต้องมากกว่า 0`);const f=$('#mt input.bad');if(f){const cc=f.closest('.ecc');if(cc&&cc.hidden&&UI.mset)UI.mset(+cc.dataset.ci);f.focus()}return}
  const payload={u,t:(unitObj(u)||{}).t||'',ops:ops.map(o=>{const old=recOf(u,o.kid,o.y,o.m),r=o.r||{};return{k:o.kid,name:KM[o.kid].name,y:o.y,m:o.m,del:!!o.del,a:r.a!=null?r.a:null,b:r.b!=null?r.b:null,v:r.v!=null?r.v:null,n:old&&old.n?old.n:''}})};
  if(!await push([['saveRecords',payload]],`กำลังบันทึก ${ops.length} ช่องลง Google Sheet`))return;
  let n=0;ops.forEach(o=>{const old=recOf(u,o.kid,o.y,o.m);S.recs=S.recs.filter(r=>!(r.u===u&&r.k===o.kid&&r.y===o.y&&(r.m||0)===o.m));if(!o.del){const r=Object.assign({u,k:o.kid,y:o.y,m:o.m},o.r);if(old&&old.n)r.n=old.n;S.recs.push(r)}n++});
@@ -933,6 +1011,8 @@ $('#modX').onclick=closeModal;$('#mod').addEventListener('click',e=>{if(e.target
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){if(!$('#mod').hidden)closeModal();else setOpen(false)}});
 $('#yearSel').innerHTML=yearOpts(UI.year);$('#yearSel').onchange=e=>setYear(+e.target.value);
 $('#sideFoot').innerHTML=`<b>ปีงบประมาณ ${FY}</b>1 ต.ค. ${FY-1} ถึง 30 ก.ย. ${FY}<br>หน้าแดชบอร์ดเปิดที่ปีงบ ${FY-1} ซึ่งมีข้อมูลครบปี`;
+const onPhone=()=>{if(UI.cur==='unit-kpi'&&!isDirty())render()};
+if(PHONE.addEventListener)PHONE.addEventListener('change',onPhone);else if(PHONE.addListener)PHONE.addListener(onPhone);
 let prevHash=location.hash;
 addEventListener('hashchange',()=>{if(UI.skipGuard){UI.skipGuard=false;prevHash=location.hash;return}
  if(UI.cur==='unit-kpi'&&isDirty()){const to=location.hash;UI.skipGuard=true;location.hash=prevHash;confirmBox('มีข้อมูลที่ยังไม่ได้บันทึก ต้องการทิ้งการแก้ไขนี้หรือไม่','ทิ้งการแก้ไข',()=>{$$('#mt input.dirty').forEach(i=>i.classList.remove('dirty'));location.hash=to},true);return}
